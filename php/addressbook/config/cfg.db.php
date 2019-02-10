@@ -1,7 +1,7 @@
 <?php
   
   // Database access definition
-  $dbserver     = "localhost"; // your database hostname
+  $dbserver     = "db"; // This is how DB hostname will be resolved within docker-compose environment
   $dbname       = "addressbook";      // your database name
   $dbuser       = "root";      // your database username     
   $dbpass       = "";          // your database password     
