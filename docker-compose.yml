@@ -4,11 +4,10 @@ version: '3'
 
 services:
   db:
-    image: mysql:5.7
+    image: vla8islav/legacy-addressbook-mysql
     environment:
       MYSQL_ROOT_PASSWORD:
       MYSQL_ALLOW_EMPTY_PASSWORD: 1 
-      MYSQL_DATABASE: addressbook
       MYSQL_USER: devuser
       MYSQL_PASSWORD: devpass
     ports:
