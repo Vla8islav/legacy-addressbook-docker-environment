@@ -8,6 +8,8 @@
 -- $Rev$
 -- 
 --
+CREATE DATABASE addressbook;
+USE addressbook;
 
 CREATE TABLE addressbook (
   domain_id int(9) unsigned NOT NULL default 0,
