@@ -1,5 +1,6 @@
 <?php
 # MantisBT - a php based bugtracking system
+date_default_timezone_set('Europe/Lisbon');
 
 # MantisBT is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -302,4 +303,3 @@ if ( !isset( $g_skip_lang_load ) ) {
 
 # signal plugins that the core system is loaded
 event_signal( 'EVENT_CORE_READY' );
-
