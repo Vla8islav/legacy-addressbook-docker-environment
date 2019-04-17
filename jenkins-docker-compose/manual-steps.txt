@@ -1,0 +1,14 @@
+Shining Panda Jenkins plugin
+Allure plugin
+
+Virtualenv Builder
+pip install -r requirements.txt
+
+
+Python-2.7.13 /usr/bin/python
+Python-3.5.3 /usr/bin/python3
+allure
+name /usr/bin/allure
+install dir /opt/allure-2.7.0
+
+bin?
